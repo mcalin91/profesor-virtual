@@ -1,0 +1,64 @@
+{
+  "name": "profesor-app",
+  "version": "1.0.0",
+  "description": "Platform educațională AI-powered cu content oficial MineEdu + 20 premium features pentru clasele 1-8",
+  "private": true,
+  "author": "Your Name",
+  "license": "MIT",
+  "homepage": "https://github.com/YOUR_USERNAME/profesor-app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/profesor-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/profesor-app/issues"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.2",
+    "firebase": "^10.0.0",
+    "@anthropic-ai/sdk": "^0.9.0",
+    "axios": "^1.4.0",
+    "zustand": "^4.3.8",
+    "recharts": "^2.8.0",
+    "uuid": "^9.0.0",
+    "date-fns": "^2.30.0",
+    "tailwindcss": "^3.3.3",
+    "lucide-react": "^0.263.1",
+    "react-hot-toast": "^2.4.1"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1",
+    "@types/react": "^18.2.14",
+    "@types/node": "^20.3.1",
+    "tailwindcss": "^3.3.3",
+    "postcss": "^8.4.24",
+    "autoprefixer": "^10.4.14"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
